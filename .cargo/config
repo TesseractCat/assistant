@@ -1,0 +1,9 @@
+[build]
+target = "x86_64-pc-windows-gnu"
+
+[target.x86_64-pc-windows-gnu]
+linker = "C:\\Users\\Tesse\\scoop\\apps\\mingw\\current\\bin\\gcc.exe"
+ar = "C:\\Users\\Tesse\\scoop\\apps\\mingw\\current\\bin\\ar.exe"
+
+[env]
+CMAKE_GENERATOR = "MinGW Makefiles"
