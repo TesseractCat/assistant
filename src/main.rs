@@ -63,7 +63,7 @@ async fn main() -> Result<()> {
 
     println!("Setting up whisper...");
 
-    let whisper_ctx = WhisperContext::new("../ggml-model-whisper-base.en-q5_1.bin").expect("Failed to load model");
+    let whisper_ctx = WhisperContext::new("../ggml-model-whisper-small.en-q5_1.bin").expect("Failed to load model");
     //let whisper_ctx = WhisperContext::new("../ggml-tiny.en-q4_0.bin").expect("Failed to load model");
     let mut whisper_state = whisper_ctx.create_state().expect("Failed to create state");
 
